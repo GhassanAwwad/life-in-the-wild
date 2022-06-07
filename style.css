@@ -1,0 +1,45 @@
+body {
+	background-image: url(background.jpg);
+	background-size: cover;
+	margin: 0px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	width: 300px;
+	length: 200px;
+	margin: 10px;
+	transition: all 2s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+
+h1 {
+	font-family: "Times New Roman";
+	color: 	rgb(3, 33, 55);
+	border-bottom: 4px solid rgba(62, 114, 19, 0.3);
+	width:250px;
+	text-align: center;
+	border-right: 4px solid rgba(62, 114, 19, 0.3);
+	border-left: 4px solid rgba(62, 114, 19, 0.3);
+	border-top: 4px solid rgba(62, 114, 19, 0.3);
+	background-color: rgba(64, 127, 127, 0.2);
+	box-shadow: 4px 4px 5px #888888;
+	margin: 10px;
+}
+
+h1:hover {
+	cursor: pointer;
+}
+
+#horses {
+
+}
+
